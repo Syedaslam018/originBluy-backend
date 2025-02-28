@@ -3,7 +3,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const authRoutes = require('./routes/authRoutes');
-const mediaRoutes = require('./routes/mediaRoutes');
+const mediaRoutes = require('./routes/mediaRoutes.js');
 const multer = require('multer');
 
 const app = express();
@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 9000;
 
 // Middleware
 app.use(express.json());
-app.use(cors());
+app.use(cors({ origin: "http://localhost:3000", credentials: true }));
 
 // Database Connection
 mongoose.connect(process.env.MONGO_URI, {
