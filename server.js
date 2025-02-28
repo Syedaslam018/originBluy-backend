@@ -7,7 +7,7 @@ const mediaRoutes = require('./routes/mediaRoutes');
 const multer = require('multer');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 9000;
 
 // Middleware
 app.use(express.json());
