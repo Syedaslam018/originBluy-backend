@@ -21,5 +21,5 @@ This is the **backend** for the **Media Management App**, built with **Node.js, 
 ## 📦 **Project Setup**
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/backend-media-app.git
-cd backend-media-app
+git clone https://github.com/Syedaslam018/originBluy-backend.git
+cd originBluy-backend
