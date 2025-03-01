@@ -1,3 +1,6 @@
+there are 2 different github repo's for frontend and backend respesctively.
+both have same readme file.
+
 # Frontend - Media Management App
 
 This is the **frontend** for the **Media Management App**, allowing users to **register, log in, upload, view, and manage media files (images & videos)**.
@@ -10,11 +13,11 @@ This is the **frontend** for the **Media Management App**, allowing users to **r
 - 🎨 **Styled UI** for a clean user experience
 - 🌍 **Deployed on Netlify**
 
----
+🚀 **Live Demo:**  
+- 🌐media-management-app:** [Netlify Link](https://originbluy-media-gallery.netlify.app)  
 
-## 📦 **Project Setup**
-### 1️⃣ Clone the Repository
-```bash
+
+---
 git clone https://github.com/Syedaslam018/originBluy-frontend.git
 cd originBluy-frontend
 
@@ -33,10 +36,5 @@ This is the **backend** for the **Media Management App**, built with **Node.js, 
 
 ## 📦 **Project Setup**
 ### 1️⃣ Clone the Repository
-```bash
 git clone https://github.com/Syedaslam018/originBluy-backend.git
 cd originBluy-backend
-
-project is live - https://originbluy-media-gallery.netlify.app
-
-head up to the url and register and login and manage your media
